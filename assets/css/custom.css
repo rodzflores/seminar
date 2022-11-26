@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+body, html{
+    font-family: 'CustomFont';
+}
+
+.top-header{
+    background-color: #009db0;
+    min-height: 50px;
+}
+
+.navbar-logo{
+    height: 100px;
+    width: 100px;
+}
+
+nav .navbar-nav a{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+nav .navbar-nav a:hover{
+    color: #ec0184;
+}
+
+nav .navbar-nav a.active{
+    color: #ec0184!important;
+}
